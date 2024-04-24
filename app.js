@@ -1,6 +1,6 @@
 fetch('https://api.codescene.io/v2/projects/52805/analyses/2288648', {
   headers: {
-      'Authorization': `Bearer AMoPKvSBNgUDbUnx1m1NikFtlzick3znXQcnV-ooKmE.Bfqv0P-ZaxD8lmAQlbTkaeuf6ZKjetdTXwpfW1Nv6HE`
+      'Authorization': `Bearer <TOKEN>`
   }
 })
   .then(response => response.json())
